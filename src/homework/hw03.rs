@@ -11,6 +11,6 @@ fn main() {
             let sym: &str =  if show { "*" } else { " "};
             print!("{}", sym);
         }
-        printl!();
+        println!();
     } 
 }    
