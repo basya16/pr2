@@ -12,7 +12,7 @@ fn main() {
             println!("*");
         }
 
-      println();
+      println!();
     }
    for y in (0..H - 1).rev() {
      let spaces = H - y - 1;
