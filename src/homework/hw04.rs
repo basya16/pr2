@@ -8,12 +8,14 @@ fn main() {
       for _ in 0..spaces {
             print!(" ");
         }
+        
       for _ in 0..stars {
-            println!("*");
+            print!("*");
         }
 
       println!();
     }
+    
    for y in (0..H - 1).rev() {
      let spaces = H - y - 1;
      let stars = 2 * y + 1;
