@@ -1,3 +1,4 @@
+const W: u32 = 11;
 const H: u32 = 5;
 
 fn main() { 
@@ -20,6 +21,8 @@ fn main() {
         for _ in 0..stars {
             print!("*");
         }
+
+      
         println!();
     }
 }
