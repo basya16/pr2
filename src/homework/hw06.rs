@@ -9,8 +9,8 @@ fn tree(triangle_count: u32) {
 
  (1..triangle_count).for_each(|level| {
         (0..=level + 2).for_each(|line| {
-            let stars = line * 2 + 1;  // Количество звезд на каждой строке
-            let spaces = (max_width - stars) / 2;  // Центрируем
+            let stars = line * 2 + 1;  
+            let spaces = (max_width - stars) / 2; 
             let row = " ".repeat(spaces as usize) + &"*".repeat(stars as usize);
             println!("{}", row);
         });
